@@ -5,9 +5,9 @@
   "author": "Bob Smith <http://eab.com>",
   "license": "MIT",
   "homepage": "https://eab-agency.github.io/alr-sass-utilities/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/EAB-Agency/alr-sass-utilities.git"
+  "repository": "https://github.com/EAB-Agency/alr-sass-utilities.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "mixin",
@@ -29,7 +29,11 @@
     "version": "npm run build && git add -A docs"
   },
   "devDependencies": {
+    "lerna": "^6.4.1",
     "sass": "^1.58.0",
     "sassdoc": "^2.7.4"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
