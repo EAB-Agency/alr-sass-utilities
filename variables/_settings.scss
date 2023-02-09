@@ -1,0 +1,68 @@
+/// This is the default white color
+/// @type Color
+$c-white: #fff;
+
+/// This is the default grey color
+/// @type Color
+$c-lightGrey: #eee;
+
+/// This is the default black color
+/// @type Color
+$c-black: #000;
+
+/// This is the default error color
+/// @type Color
+$c-error: #c00;
+
+/// This is the default valid/success color
+/// @type Color
+$c-valid: green;
+
+/// This is the default link color
+/// @type Color
+$c-link: blue;
+
+/// This is the font style for headlines
+$f-headlineFont: serif;
+
+/// This is the font style for body copy
+$f-bodyFont: sans-serif;
+
+/// This is the font style for icons
+$f-iconFont: 'Icons';
+
+/// Default breakpoints
+$mq-breakpoints: (
+  xsmall: 26em,
+  // 416px / phone @ portrait
+  small: 30em,
+  // 480px / phone @ landscape / small tablet (portrait)
+  medium: 48em,
+  // 768px / small tablet (landscape) / large tablet (portrait)
+  large: 64em,
+  // 1024px / large tablet (landscape) / small desktop
+  xlarge: 80em,
+  // 1280px / standard desktop
+  xxlarge: 100em // 1600px / large desktop,,,,,,,,,,,,,,,,,,,,,,,,,
+) !default;
+
+/// Icon for right arrow
+$i-arrowRight: '\f054';
+
+/// Icon for error circle
+$i-errorCircle: '\f06a';
+
+/// Icon for close
+$i-close: '\f00d';
+
+/// Icon for check
+$i-check: '\f00c';
+
+/// Icon for light bulb
+$i-lightBulb: '\f0eb';
+
+/// Icon for phone
+$i-phone: '\f095';
+
+/// Icon for email
+$i-email: '\f0e0';

@@ -1,0 +1,4 @@
+basePath: "https://github.com/EABAgency/alr-sass-utilities/tree/master"
+dest: docs
+display:
+    access: ["public"]

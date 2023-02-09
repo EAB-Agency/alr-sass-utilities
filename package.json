@@ -1,0 +1,34 @@
+{
+  "name": "alr-sass-utilities",
+  "version": "1.0.0",
+  "description": "A collection of Sass classes, functions, mixins, and other utilities",
+  "author": "Bob Smith <http://eab.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/EABAgency/alr-sass-utilities",
+  "keywords": [
+    "mixin",
+    "mixins",
+    "function",
+    "functions",
+    "helper",
+    "helpers",
+    "sass",
+    "scss",
+    "util",
+    "utils",
+    "utilities"
+  ],
+  "main": "_index.scss",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "sassdoc **/*.scss",
+    "start": "npm run build",
+    "test": "jest",
+    "version": "npm run build && npm t && git add -A docs"
+  },
+  "devDependencies": {
+    "jest": "^29.4.2",
+    "sass": "^1.58.0",
+    "sassdoc": "^2.7.4"
+  }
+}

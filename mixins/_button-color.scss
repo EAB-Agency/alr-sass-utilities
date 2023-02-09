@@ -1,0 +1,40 @@
+@use '../settings' as variables;
+
+// Button Color Mixin - (used on _buttons.scss)
+// -- Update Colors with Brand Colors -- //
+//
+/// @author Lara Latham
+/// @link link to the where the original code was found
+///
+/// @param {String} $color [$c-black] - Button Color
+/// @param {String} $color-hover [$c-white] - Button Hover Color
+/// @param {String} $text-color [$c-white] - Button Text Color
+/// @param {String} $text-color-hover [$c-black] - Button Text Hover Color
+/// @param {String} $border-color [$c-black] - Button Border Color
+/// @param {String} $border-color-hover [$c-black] - Button Border Hover Color
+///
+/// @example scss
+/// .myclass {
+///  @include buttonColor($color, $color-hover, $text-color, $text-color-hover, $border-color, $border-color-hover);
+/// }
+///
+
+@mixin button-color(
+  $color: variables.$c-black,
+  $color-hover: variables.$c-white,
+  $text-color: variables.$c-white,
+  $text-color-hover: variables.$c-black,
+  $border-color: variables.$c-black,
+  $border-color-hover: variables.$c-black
+) {
+  background: $color;
+  color: $text-color;
+  border: 1px solid $border-color;
+
+  &:hover,
+  &:focus {
+    background: $color-hover;
+    color: $_c-buttonTextColorHover;
+    border: 1px solid $border-color-hover;
+  }
+}

@@ -1,0 +1,29 @@
+///
+/// Returns a breakpoint value for use in a max media query
+///
+/// @author Lara Latham
+///
+/// @param  {String} $breakpoint - A REM value of the max media query breakpoint
+/// @return {String}      - returns the max media query breakpoint
+///
+/// @example scss - SCSS usage
+/// .section {
+///   padding: 2rem;
+///   @media (max-width: maxMQ(37.5rem)) {
+///     padding: 1rem;
+///   }
+/// }
+///
+/// @example css - compiled CSS
+/// .section {
+///   padding: 2rem;
+/// }
+///  @media (max-width: 37.4375rem) {
+///   .section {
+///     padding: 1rem
+///   }
+///  }
+
+@function maxMQ($breakpoint) {
+  @return $breakpoint - 0.0625rem;
+}
