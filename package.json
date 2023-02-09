@@ -20,11 +20,9 @@
   ],
   "main": "_index.scss",
   "scripts": {
-    "prepare": "npm run build",
     "build": "sassdoc **/*.scss",
     "start": "npm run build",
-    "test": "jest",
-    "version": "npm run build && npm t && git add -A docs"
+    "version": "npm run build && git add -A docs"
   },
   "devDependencies": {
     "jest": "^29.4.2",
