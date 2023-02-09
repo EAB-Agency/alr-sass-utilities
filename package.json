@@ -1,6 +1,6 @@
 {
   "name": "@EAB-Agency/alr-sass-utilities",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A collection of Sass classes, functions, mixins, and other utilities",
   "author": "Bob Smith <http://eab.com>",
   "license": "MIT",
