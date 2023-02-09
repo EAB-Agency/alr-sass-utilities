@@ -1,6 +1,6 @@
 # sass-utilities
 
-- [Documentation](https://eabagency.github.io/alr-sass-utilities/) (via [SassDoc](http://sassdoc.com/))
+- [Documentation](https://eab-agency.github.io/alr-sass-utilities/) (via [SassDoc](http://sassdoc.com/))
 
 ## Installation
 
@@ -31,7 +31,7 @@ npm install alr-sass-utilities
 **Git**
 
 ```shell
-git clone https://github.com/EABAgency/alr-sass-utilities.git
+git clone https://github.com/EAB-Agency/alr-sass-utilities.git
 ```
 
 ## Usage

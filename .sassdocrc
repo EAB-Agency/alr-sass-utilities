@@ -1,4 +1,4 @@
-basePath: "https://github.com/EABAgency/alr-sass-utilities/tree/master"
+basePath: "https://github.com/EAB-Agency/alr-sass-utilities/tree/main"
 dest: docs
 display:
     access: ["public"]
