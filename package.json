@@ -1,5 +1,5 @@
 {
-  "name": "@eab-agency/alr-sass-utilities",
+  "name": "alr-sass-utilities",
   "description": "A collection of Sass classes, functions, mixins, and other utilities",
   "version": "0.0.8",
   "author": "Bob Smith <http://eab.com>",
