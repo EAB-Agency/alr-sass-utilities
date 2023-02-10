@@ -45,7 +45,10 @@ div {
 }
 
 
-// You can access variables, functions, and mixins from another module by writing <namespace>.<variable>, <namespace>.<function>(), or @include <namespace>.<mixin>(). By default, the namespace is just the last component of the module’s URL. 
+// You can access variables, functions, and mixins from another module 
+// by writing <namespace>.<variable>, <namespace>.<function>(), or 
+// @include <namespace>.<mixin>(). By default, the namespace is just 
+// the last component of the module’s URL. 
 
 @use "alr-sass-utilities/mixins";
 
