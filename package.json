@@ -24,9 +24,8 @@
   ],
   "main": "_index.scss",
   "scripts": {
-    "build": "sassdoc **/*.scss",
-    "start": "npm run build",
-    "version": "npm run build && git add -A docs"
+    "start": "sassdoc **/*.scss",
+    "version": "npm run start && git add -A docs"
   },
   "devDependencies": {
     "lerna": "^6.4.1",
