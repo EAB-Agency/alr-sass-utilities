@@ -31,7 +31,7 @@ npm install alr-sass-utilities
 **Git**
 
 ```shell
-git clone https://github.com/EAB-Agency/alr-sass-utilities.git
+git clone https://github.com/eab-agency/alr-sass-utilities.git
 ```
 
 ## Usage

@@ -1,13 +1,13 @@
 {
-  "name": "@EAB-Agency/alr-sass-utilities",
-  "version": "0.0.6",
+  "name": "@eab-agency/alr-sass-utilities",
+  "version": "0.0.7",
   "description": "A collection of Sass classes, functions, mixins, and other utilities",
   "author": "Bob Smith <http://eab.com>",
   "license": "MIT",
   "homepage": "https://eab-agency.github.io/alr-sass-utilities/",
-  "repository": "https://github.com/EAB-Agency/alr-sass-utilities.git",
+  "repository": "https://github.com/eab-agency/alr-sass-utilities.git",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/EAB-Agency"
+    "registry": "https://npm.pkg.github.com/eab-agency"
   },
   "keywords": [
     "mixin",
