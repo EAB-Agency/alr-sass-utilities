@@ -28,11 +28,7 @@
     "version": "npm run start && git add -A docs"
   },
   "devDependencies": {
-    "lerna": "^6.4.1",
     "sass": "^1.58.0",
     "sassdoc": "^2.7.4"
-  },
-  "workspaces": [
-    "packages/*"
-  ]
+  }
 }
