@@ -41,12 +41,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-          registry-url: 'https://registry.npmjs.org'
-
 
       # Setup Node.js environment
 #       - name: Setup Node.js
@@ -99,10 +93,18 @@ jobs:
           git tag ${{ env.NEW_VERSION }}
 
       # Publish version to public repository
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: 'https://registry.npmjs.org'
       - name: Publish
-        run: yarn publish --verbose --access public --tag ${{ env.RELEASE_TAG }}
+        run: npm publish --verbose --access public --tag ${{ env.RELEASE_TAG }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPMJS_ACCESS_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPMJS_ACCESS_TOKEN }}
+          token: ${{ secrets.NPMJS_ACCESS_TOKEN }}
+
 
   #  - name: Publish to npm
   #       run: npm publish
