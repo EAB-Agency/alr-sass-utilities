@@ -34,7 +34,7 @@
   &:hover,
   &:focus {
     background: $color-hover;
-    color: $_c-buttonTextColorHover;
+    color: $text-color-hover;
     border: 1px solid $border-color-hover;
   }
 }
