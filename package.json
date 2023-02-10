@@ -1,14 +1,15 @@
 {
   "name": "alr-sass-utilities",
   "description": "A collection of Sass classes, functions, mixins, and other utilities",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "author": "Bob Smith <http://eab.com>",
   "license": "MIT",
   "homepage": "https://eab-agency.github.io/alr-sass-utilities/",
   "repository": "https://github.com/eab-agency/alr-sass-utilities.git",
   "main": "_index.scss",
   "scripts": {
-    "start": "sassdoc **/*.scss",
+    "build": "sassdoc **/*.scss",
+    "start": "npm run build",
     "version": "npm run start && git add -A docs"
   },
   "devDependencies": {
