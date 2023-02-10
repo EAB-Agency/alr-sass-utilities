@@ -6,9 +6,6 @@
   "license": "MIT",
   "homepage": "https://eab-agency.github.io/alr-sass-utilities/",
   "repository": "https://github.com/eab-agency/alr-sass-utilities.git",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/eab-agency"
-  },
   "main": "_index.scss",
   "scripts": {
     "start": "sassdoc **/*.scss",
