@@ -1,4 +1,4 @@
-@use '../settings' as variables;
+@use 'settings' as variables;
 
 // Button Color Mixin - (used on _buttons.scss)
 // -- Update Colors with Brand Colors -- //
@@ -15,7 +15,7 @@
 ///
 /// @example scss
 /// .myclass {
-///  @include buttonColor($color, $color-hover, $text-color, $text-color-hover, $border-color, $border-color-hover);
+///  @include button-color($color, $color-hover, $text-color, $text-color-hover, $border-color, $border-color-hover);
 /// }
 ///
 
