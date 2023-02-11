@@ -24,6 +24,4 @@
 ///   }
 ///  }
 
-@function maxMQ($breakpoint) {
-  @return $breakpoint - 0.0625rem;
-}
+@function max-mq($breakpoint) { @return $breakpoint - 0.0625rem; }

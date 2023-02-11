@@ -10,10 +10,19 @@
   "scripts": {
     "build": "sassdoc **/*.scss",
     "start": "npm run build",
-    "version": "npm run start && git add -A docs"
+    "lint": "npx stylelint **/*.scss",
+    "lint:fix": "npx stylelint **/*.scss --fix"
   },
   "devDependencies": {
+    "postcss": "^8.4.21",
+    "postcss-scss": "^4.0.6",
     "sass": "^1.58.0",
-    "sassdoc": "^2.7.4"
+    "sassdoc": "^2.7.4",
+    "stylelint": "14.16.1",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-standard": "^30.0.1",
+    "stylelint-config-standard-scss": "^6.1.0",
+    "stylelint-prettier": "^2.0.0",
+    "stylelint-scss": "^4.3.0"
   }
 }

@@ -1,4 +1,4 @@
-@use '../variables/settings' as variables;
+@use "../variables/settings" as variables;
 
 // Button Color Mixin - (used on _buttons.scss)
 // -- Update Colors with Brand Colors -- //
@@ -20,21 +20,21 @@
 ///
 
 @mixin button-color(
-  $color: variables.$c-black,
-  $color-hover: variables.$c-white,
-  $text-color: variables.$c-white,
-  $text-color-hover: variables.$c-black,
-  $border-color: variables.$c-black,
-  $border-color-hover: variables.$c-black
+    $color: variables.$c-black,
+    $color-hover: variables.$c-white,
+    $text-color: variables.$c-white,
+    $text-color-hover: variables.$c-black,
+    $border-color: variables.$c-black,
+    $border-color-hover: variables.$c-black
 ) {
-  background: $color;
-  color: $text-color;
-  border: 1px solid $border-color;
+    background: $color;
+    color: $text-color;
+    border: 1px solid $border-color;
 
-  &:hover,
-  &:focus {
-    background: $color-hover;
-    color: $text-color-hover;
-    border: 1px solid $border-color-hover;
-  }
+    &:hover,
+    &:focus {
+        background: $color-hover;
+        color: $text-color-hover;
+        border: 1px solid $border-color-hover;
+    }
 }

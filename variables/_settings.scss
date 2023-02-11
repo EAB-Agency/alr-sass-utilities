@@ -29,40 +29,35 @@ $f-headlineFont: serif;
 $f-bodyFont: sans-serif;
 
 /// This is the font style for icons
-$f-iconFont: 'Icons';
+$f-iconFont: "Icons";
 
 /// Default breakpoints
 $mq-breakpoints: (
-  xsmall: 26em,
-  // 416px / phone @ portrait
-  small: 30em,
-  // 480px / phone @ landscape / small tablet (portrait)
-  medium: 48em,
-  // 768px / small tablet (landscape) / large tablet (portrait)
-  large: 64em,
-  // 1024px / large tablet (landscape) / small desktop
-  xlarge: 80em,
-  // 1280px / standard desktop
-  xxlarge: 100em // 1600px / large desktop,,,,,,,,,,,,,,,,,,,,,,,,,
+    xsmall: 26em,
+    small: 3    m,
+    medium:        m,
+    larg       64em,
+    arge: 80em,
+    xxlarge: 100em
 ) !default;
 
 /// Icon for right arrow
-$i-arrowRight: '\f054';
+$i-arrowRight: "\f054";
 
 /// Icon for error circle
-$i-errorCircle: '\f06a';
+$i-errorCircle: "\f06a";
 
 /// Icon for close
-$i-close: '\f00d';
+$i-close: "\f00d";
 
 /// Icon for check
-$i-check: '\f00c';
+$i-check: "\f00c";
 
 /// Icon for light bulb
-$i-lightBulb: '\f0eb';
+$i-lightBulb: "\f0eb";
 
 /// Icon for phone
-$i-phone: '\f095';
+$i-phone: "\f095";
 
 /// Icon for email
-$i-email: '\f0e0';
+$i-email: "\f0e0";
